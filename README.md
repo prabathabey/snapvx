@@ -12,6 +12,8 @@ SnapVX
 #### DEPENDENCIES
 The required dependencies to build SnapVX are NumPy >= 1.6.1, Scipy >= 0.9, CVXPY >= 0.3.9, and Snap.py >= 1.2.
 
+Install dependencies by running `pip install -r $SNAPVX_HOME/requirements.txt`
+
 #### INSTALLATION
 1. Download the latest release [here](http://snap.stanford.edu/snapvx/release/).
 2. Uncompress the `snapvx-*.tar.gz` file.

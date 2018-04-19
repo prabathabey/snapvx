@@ -1,0 +1,5 @@
+numpy>= 1.6.1
+scipy>= 0.9
+cvxpy>= 0.3.9
+
+https://snap.stanford.edu/snappy/release/snap-4.0.0-4.0-centos6.5-x64-py2.6.tar.gz
