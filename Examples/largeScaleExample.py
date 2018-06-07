@@ -2,7 +2,7 @@ from snapvx import *
 import numpy
 import time
 
-def laplace_reg(src, dst, data):
+def network_lasso_reg(src, dst, data):
     return (norm(src['x'] - dst['x']), [])
 
 numpy.random.seed(0)
@@ -18,7 +18,7 @@ for i in range(num_nodes):
     gvx.SetNodeObjective(i, sum_entries(huber(x-a)))
 
 
-gvx.AddEdgeObjectives(laplace_reg)
+gvx.AddEdgeObjectives(network_lasso_reg)
 
 start = time.time()
 gvx.Solve(Verbose=True, Rho=0.1)
