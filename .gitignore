@@ -7,3 +7,6 @@
 # Output files
 build/
 *.out
+
+# Pycharm related metadata files
+.idea/
